@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+h1 {
+    color: white;
+    background-color: blue ;
+    padding: 10px;
+    text-align: center;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.register-form {
+    display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 12px;
+  width: 400px;
+}
+
+form {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 16px;
+}
+input[type] {
+    padding: 6px;
+    width: 280px;
+    border: 0.5px solid grey;
+    border-radius: 6px;
+}
+
+.div > P {
+    Color: Blue
+
+}
+
+.test {
+    text-align: center;
+    margin:24px;
+    font-size: 36px;
+}
+a:visited {
+    color: red
+}
+a:hover {
+    Color:Green;
+}
+input:focus {
+    background-color: rgba(230, 226, 226, 0.842);
+}
+.P::first-letter {
+    Color: red;
+    font-size: 56px;
+    font-weight: bold;
+
+}

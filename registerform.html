@@ -14,11 +14,15 @@
     <meta property="og:type" content="article"/>
     <link rel="shortcut icon" href="./photo_2026-05-31_16-22-57.jpg" type="image/x-icon"/>
     <title>Register Form</title>
+    <link rel="stylesheet" href="registerform.css"/>
+
 </head>
 <body>
     <header>
         <h1>Input Types Practice Form</h1>
-        <form>
+        <div class="container"> 
+            <div class="register-form">
+            <form action="">
             <label for="text">Text:</label>
             <br>
             <input type="text" id="text" name="text" placeholder="Text input" required>
@@ -55,24 +59,6 @@
             <br>
             <input type="datetime-local" id="datetime-local" name="datetime-local" required>
             <br>
-            <label for="gender">Gender:</label>
-            <br>
-            <input type="radio" id="male" name="gender" value="male" required>
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female" required>
-            <label for="female">Female</label>
-            <input type="radio" id="other" name="gender" value="other" required>
-            <label for="other">Other</label>
-            <br>
-            <label for="hobbies">Hobbies:</label>
-            <br>
-            <input type="checkbox" id="Football" name="hobbies" value="Football">
-            <label for="Football">Football</label>
-            <input type="checkbox" id="Coding" name="hobbies" value="Coding">
-            <label for="Coding">Coding</label>
-            <input type="checkbox" id="Music" name="hobbies" value="Music">
-            <label for="Music">Music</label>
-            <br>
             <label for="search">Search:</label>
             <br>
             <input type="search" id="search" name="search" placeholder="Search...">
@@ -83,24 +69,37 @@
             <br>
             <label for="country">Country:</label>
             <br>
-            <select id="country" name="country" required>
-                <option value="">Select a country</option>
-                <option value="us">USA</option>
-                <option value="ca">Canada</option>
-                <option value="uk">United Kingdom</option>
-            </select>
-            <br>
-            <br>
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
-
-
-
-        </form>
+            </form>
+        </div>
+        </div>
 
     </header>
     <main>
         
     </main>
+    <div class="div">
+        <p>Direct child 1</p>
+        <p>Direct child 2</p>
+        <p>Direct child 3</p>
+        <p>Direct child 4</p>
+        <section>
+            <p>Child 5</p>
+            <acrticale>
+                <p>Child 6</p>
+            </acrticale>
+        </section>
+
+    </div>
+    <br /> <br>
+    <div class="test">
+    <a href="https://udomnylong.github.io/HTML-Project/registerform">Register Form</a>
+
+    </div>
+    <br>
+    <P class="P">
+        A pseudo-element in CSS is used to style specific parts of an element or insert content before or after an element, without requiring additional HTML markup. Pseudo-elements allow you to apply styles to portions of an element's content, such as the first letter, first line, or add extra content dynamically, such as inserting content before or after the element.
+    </P>    
 </body>
 </html>
