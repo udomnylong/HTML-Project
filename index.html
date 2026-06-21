@@ -14,6 +14,22 @@
     <meta property="og:type" content="article"/>
     <link rel="shortcut icon" href="./photo_2026-05-31_16-22-57.jpg" type="image/x-icon"/>
     <title>HTML Lesson</title>
+    <style>
+    table {
+      border-collapse: collapse;
+    }
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      width: 600px;
+      text-align: center;
+    }
+    .total{
+        text-align: left;
+    }
+  </style>
+
 </head>
 <body>
     <h1>Welcome to My Practice Website</h1>
@@ -30,6 +46,65 @@
         Water formula is H<sub>2</sub>O and E=mc<sup>2</sup>. and x<sup>2</sup> mean x squared.
         <small>This text is small.</small>
     </p>
+    <main>
+        
+        <section>
+            <h2>HTML Table</h2>
+            <p>List Students</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>20</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>22</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>Emily Johnson</td>
+                        <td>19</td>
+                        <td>A-</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="total">Total Students : 3</td>
+
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>HTML List</h2>
+            <i--Ordered List-->
+                <ol>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ol>
+
+        </section>
+        <section>
+            <h2>HTML Form</h2>
+            <form>
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Enter your username"/>
+                <br>
+                <label>Password</label>
+            </form>
+        </section>
+    
+    </main>
     <image src="/photo_2026-05-31_16-22-57.jpg"
         alt="A photo of me"
         width="200px"
